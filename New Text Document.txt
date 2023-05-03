@@ -1,0 +1,11 @@
+<html><body><img src="C:/Users/admin/Downloads/decorist-logo.svg" alt=""></body></html>
+
+
+<style>
+                                        body {
+                                          background-image: url('assets/images/slider-p-02.jpg');
+                                          background-repeat: no-repeat;
+                                          background-attachment: fixed;
+                                          background-size: cover;
+                                        }
+                                        </style>

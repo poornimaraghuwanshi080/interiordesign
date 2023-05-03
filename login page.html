@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<head>
+<title>Employee Interests Survey</title><meta channel charset="UTF-8">
+<meta name="viewport" content="width-device-width,initial-scale=1.0">
+<meta http-eqiv="X-UA-COMPATIBLE" content="ie=edge">
+<link rel="stylesheet" href="C:\Users\admin\Desktop\project\style2.css">
+<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="C:\Users\admin\Desktop\project\style2.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo-details">
+          <i class='bx bxl-c-plus-plus icon'></i>
+            <div class="logo_name">decorist</div>
+            <i class='bx bx-menu' id="btn" ></i>
+        </div>
+        <ul class="nav-list">
+          <li>
+              <i class='bx bx-search' ></i>
+             <input type="text" placeholder="Search...">
+             <span class="tooltip">Search</span>
+          </li>
+          <li>
+            <a href="#">
+              <i class='bx bx-grid-alt'></i>
+              <span class="links_name">Dashboard</span>
+            </a>
+             <span class="tooltip">Dashboard</span>
+          </li>
+          <li>
+           <a href="C:\Users\admin\Desktop\project\major project.html">
+             <i class='bx bx-user' ></i>
+             <span class="links_name">designer services</span>
+           </a>
+           <span class="tooltip">designer services</span>
+         </li>
+         <li>
+           <a href="#">
+             <i class='bx bx-chat' ></i>
+             <span class="links_name">Our designer</span>
+           </a>
+           <span class="tooltip">Our designer</span>
+         </li>
+         <li>
+           <a href="C:\Users\admin\Desktop\project\client projects.html">
+             <i class='bx bx-pie-chart-alt-2' ></i>
+             <span class="links_name">Client project</span>
+           </a>
+           <span class="tooltip">Client project</span>
+         </li>
+         <li>
+           <a href="C:\Users\admin\Desktop\project\AboutUs.html">
+             <i class='bx bx-folder' ></i>
+             <span class="links_name">About us</span>
+             
+           </a>
+           <span class="tooltip">Blogs</span>
+         </li>
+         <li>
+           <a href="C:/Users/admin/Desktop/project/registration.html ">
+             <i class='bx bx-cart-alt' ></i>
+             <span class="links_name">Order</span>
+           </a>
+           <span class="tooltip">Order</span>
+         </li>
+              <li>
+           <a href="#">
+             <i class='bx bx-cog' ></i>
+             <span class="links_name">Setting</span>
+           </a>
+           <span class="tooltip">Setting</span>
+         </li>
+         <li class="profile">
+             <div class="profile-details">
+                          <div class="name_job">
+                 <div class="name">Poornima raghuwanshi</div>
+                 <div class="job">Web designer</div>
+               </div>
+             </div>
+             <i class='bx bx-log-out' id="log_out" ></i>
+         </li>
+        </ul>
+      </div>
+       <script>
+      let sidebar = document.querySelector(".sidebar");
+      let closeBtn = document.querySelector("#btn");
+      let searchBtn = document.querySelector(".bx-search");
+    
+      closeBtn.addEventListener("click", ()=>{
+        sidebar.classList.toggle("open");
+        menuBtnChange();//calling the function
+      });
+    
+      searchBtn.addEventListener("click", ()=>{ // Sidebar open when you click on the search iocn
+        sidebar.classList.toggle("open");
+        menuBtnChange(); //calling the function
+      });
+    
+      
+      function menuBtnChange() {
+       if(sidebar.classList.contains("open")){
+         closeBtn.classList.replace("bx-menu", "bx-menu-alt-right");
+       }else {
+         closeBtn.classList.replace("bx-menu-alt-right","bx-menu");
+       }
+      }
+      </script>
+
+      
+    <style type="text/css">
+    body{margin:0 auto; width: 1000px; position:static;} 
+              div.navMENU{ color:#333; width: 30%; height:40px;}
+        div.navMENU ul{list-style-type:none; padding:0px; margin:0 auto;opacity:0.1;}
+                           </style>
+                    </head>
+                  <body>
+                   <div class="navMENU"> 
+         <ul>
+              <img src="C:/Users/admin/Downloads/decorist-logo.svg" style="text-align: center;" alt="">
+                     </ul>
+        
+        </div>
+<form action="http://google.co.in">
+<div align="center">
+<h1>Employee Interests Survey form</h1>
+Enter your name:
+<input type="text" name="UserName" size=35 maxlength=35 value="">
+</br></br>
+Enter your department:
+<input type="text" name="Deptt" size=35 maxlength=35 value=""> </br> </br>
+Tell us a little about yourself:
+<textarea name="Comments" cols=30 rows=4></textarea> </br> </br>
+Do you exercise at home?
+<input type="radio" name="exe" value=1>Yes
+<input type="radio" name="exe" value=2>No
+</p>
+How do you like to read about your favorite topics?
+<p>
+<input type="checkbox" name="Books">Books
+<input type="checkbox" name="Web">Online resources
+<input type="checkbox" name="Phone">Phone apps
+<input type="checkbox" name="Magazines">Magazines
+</p>
+What genre of movies do you like?
+<select name="moviepref" ><option>
+<option value=1 selected = "true">comedy
+<option value=2 >romance
+<option value=3 >thriller
+<option value=4 >horror
+<option value=5 >biopic
+</select>
+</br></br>
+<input type=submit value="Submit form">
+</div>
+</form>
+</body>
+</html>

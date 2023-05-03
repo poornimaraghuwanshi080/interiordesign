@@ -1,0 +1,23 @@
+body{font-family:'lucida grande' ,tahoma, verdana, arian, sans-serif;
+}
+#navigation{
+height:60px;;
+margin-top:5px;
+}
+
+ul#navmenu{
+list-style-type:none;
+font-size:20px;
+}
+ul#navmenu li{
+width:200px;
+text-align:center;
+float:left;
+margin-right:4px;
+}
+ul#navmenu a {
+text-decoration:none;
+display:block;
+width:180px;
+height:25px;
+}
