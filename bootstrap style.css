@@ -1,0 +1,17 @@
+body{
+    background-color: #343a40;
+}
+.sidebar{
+    background-color: #343a40;
+    min-height: 600px;
+    overflow-y: scroll;
+}
+.list-group-item{
+    background-color: transparent;
+    color: #fff;
+    border-bottom: 1px solid;   
+}
+.main-content{
+    background-color: #fff;
+
+}

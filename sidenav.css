@@ -1,0 +1,104 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins" , sans-serif;
+}
+.btn {
+    background: #32314d;
+    color: rgb(192, 147, 147);
+    text-decoration: none;
+    padding: 1em 2em;
+    margin: .2em 0;
+    text-align: center;
+    opacity: 1;
+    border-radius: 20px;
+font-family: "Poppins" , sans-serif;
+font-weight: bold;
+display:block;
+ width:180px;
+ -moz-border-radius:50px;
+}
+.btn:hover {
+    background: lightcoral;
+    color:#32314d;
+    opacity: 0.7;
+}
+.home-section{
+  position: relative;
+  background: #E4E9F7;
+  min-height: 90vh;
+  top: 0;
+  width: calc(85% - 20px);
+  transition: all 0.5s ease;
+  z-index: -1;
+  text-align: center;
+}
+.bg-image {
+    position: absolute;
+    background:rgb(219, 180, 180) url('https://www.decorist.com/static/img/decorist-logo.svg');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size:contain;
+     width: 150%;
+    height: 500px;
+    z-index: -1;
+    opacity: 0.9;
+ }
+ .home-section .text{
+  display: inline-block;
+  color: #32314d;
+  font-size: 25px;
+  font-weight: 500;
+  margin: 18px;
+  text-align: center;
+}
+/*footer*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;
+  }
+  body{
+    min-height: 100vh;
+    width: 100%;
+    background: #EEECEB;
+  }
+  footer{
+    position: fixed;
+    background: rgb(192, 147, 147);
+    width: 100%;
+    bottom: 0;
+    left: 0;
+  }
+  footer .bottom-details{
+    width: 100%;
+    background: rgb(192, 147, 147);
+  }
+  footer .bottom-details .bottom_text{
+    max-width: 1250px;
+    margin: auto;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .bottom-details .bottom_text span,
+  .bottom-details .bottom_text a{
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+    opacity: 0.8;
+    text-decoration: none;
+  }
+  .bottom-details .bottom_text a{
+    margin-right: 10px;
+  }
+  @media (max-width: 700px){
+    footer{
+      position: relative;
+    }
+      .bottom-details .bottom_text span,
+    .bottom-details .bottom_text a{
+      font-size: 12px;
+    }
+  } 
